@@ -6,3 +6,6 @@
     @endforeach
 
 </ul>
+
+    <!-- 新規登録画面へジャンプする -->
+    <button onclick='location.href="{{ route("memos.create") }}"'>登録する</button>
