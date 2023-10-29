@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>memo create</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
+
 <body>
     <a href="{{ route('memos.index') }}">戻る</a>
     <h1>更新</h1>
@@ -25,4 +27,5 @@
         <input type="submit" value="更新">
     </form>
 </body>
+
 </html>
